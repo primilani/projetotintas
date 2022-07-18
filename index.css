@@ -1,0 +1,136 @@
+
+/*Menu e Cabeçalho*/
+
+.caixa{
+    position: relative;
+    width: 20% 0;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 8%;
+    right: 8%;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #041414e8;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: Arima, cursive;
+    
+    
+}
+
+nav a:hover{
+    color: #d85b13;
+    text-decoration: underline;
+}
+
+
+/*Corpo do site*/
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em; 
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 2px #888888;
+}
+
+.principal{
+    padding: 4em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+    
+
+}
+
+.principal p {
+    margin: 0 0 2em;
+    font-family: Georgia;
+   
+}
+
+.botao {
+    text-decoration: none;
+    font-size: 1.2em;
+    background: #380B61;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    transition: 2s;
+    cursor: pointer;
+    
+}
+
+.botao:hover{
+    background-color:#59429d;
+}
+
+
+.principal strong{
+    font-weight: bold;  
+    
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.mancha{
+    width: 30%;
+    float: left;
+    margin: -5px 20px 20px 0; /*cima, direito, baixo, esquerda*/
+
+}
+
+
+#missao{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-left: 8%;
+
+}
+
+/*Mapa*/
+
+.opiniao{
+    font-family:a  
+}
+
+.titulo-principal {
+    margin: 0 0 1em;
+    text-align: center;
+    font-family: Arima, cursive;
+}
+
+
+
+/*Rodape*/
+
+footer{
+    text-align: center;
+    background:  linear-gradient(#fefefe, #888888);
+    padding: 0px 6px;
+}
+
+.copyright{
+    color: rgba(0, 0, 0, 0.986);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serifar;
+ }

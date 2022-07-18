@@ -1,0 +1,101 @@
+/*Menu e Cabeçalho*/
+
+.caixa{
+    position: relative;
+    width: 20% 0;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 8%;
+    right: 8%;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #041414e8;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: Arima, cursive;  
+}
+
+nav a:hover{
+    color: #d85b13;
+    text-decoration: underline;
+}
+
+/*Main*/
+
+main{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.opiniao{
+       font-family: Arima, cursive; 
+       text-shadow: 2px 2px #888888;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 17px;
+    margin: 0 0 10px;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox{
+    margin: 20px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background:  #380B61 ;
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color:#59429d;
+}
+
+
+/*Rodape*/
+
+footer{
+    text-align: center;
+    background:  linear-gradient(#fefefe, #888888);
+    padding: 0px 6px;
+}
+
+.copyright{
+    color: rgba(0, 0, 0, 0.986);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+ }
