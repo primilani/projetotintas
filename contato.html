@@ -37,13 +37,13 @@
                 <br>
 
                 <label for="nome">Nome completo</label>
-                <input type="text" id="nome"  class="input-padrao" required>
+                <input type="text" id="nome"  class="input-padrao" required pattern="^([ \u00c0-\u00ffa-zA-Z])+$">
 
                 <label for="email">E-mail</label>
                 <input type="email" id="email"  class="input-padrao" required placeholder="seuemail@dominio.com">
 
                 <label for="tel">Telefone</label>
-                <input type="text" id="tel" class="input-padrao" placeholder="(XX)XXXXX-XXXX">
+                <input type="text" id="tel" class="input-padrao" placeholder="(XX)XXXXX-XXXX" pattern="([(]\d{2}[)-]\s)(\d{3,9}[-]*)(\d{4})\b">
 
             
                 <textarea cols="70" rows="10" id="mensagem" class="input-padrao" placeholder="Digite sua mensagem"></textarea>
