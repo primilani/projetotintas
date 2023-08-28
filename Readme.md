@@ -10,7 +10,7 @@
 
 Tintas **Lazuli** é um projeto criado para a praticidade do consumidor, e de bem estar com meio ambiente.
 _____
-###  🔎 O que foi desenvildo?
+###  🔎 O que foi desenvolvido?
 
 Uma aplicação web ou mobile que ajuda o usuário a calcular a quantidade de tinta 
 necessária para pintar uma sala. 
